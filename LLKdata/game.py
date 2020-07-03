@@ -2,7 +2,7 @@ from PyQt5 import QtCore, QtWidgets
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from tool.readQssTool import readQssTool
-from gameMap import Map
+from .gameMap import Map
 
 
 class Ui_game:
@@ -34,10 +34,9 @@ if __name__ == '__main__':
     mainWindow = QMainWindow()
     ui = Ui_game()
     ui.setupUi(mainWindow)
-    ui.getImage()
     qss='''
         QMainWindow{
-            border-image:url(../image/game-bg.jpg)
+            border-image:url(../image/LLKdata-bg.jpg)
         }
     '''
     mainWindow.setStyleSheet(ui.getImage()+qss)
