@@ -1,0 +1,17 @@
+QMainWindow{
+    border-image:url(../image/background.jpg);
+}
+
+QPushButton{
+    height:60;
+    border-image:url(../image/button-bg.jpg);
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+    border-radius:5;
+}
+
+QPushButton:hover{
+    color:black;
+    cursor:pointer;
+}
