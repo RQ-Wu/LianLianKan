@@ -62,12 +62,14 @@ def oneRoadConnect(data, x1, y1, x2, y2):
     if flag:
         data[y1][x1] = data[y2][x2] = 0
         print(data)
-        print()
+        print(1)
     return flag
 
 
 def twoRoadConnect(data, x1, y1, x2, y2):
     flag = False
+    if not data[y1][x1] == data[y2][x2]:
+        return False
     if YRoadConnect(data, x1, y1, x1, y2) and XRoadConnect(data, x2, y2, x1, y2) and data[y2][x1] == 0:
         flag = True
     if XRoadConnect(data, x1, y1, x2, y1) and YRoadConnect(data, x2, y2, x2, y1) and data[y1][x2] == 0:
@@ -75,7 +77,7 @@ def twoRoadConnect(data, x1, y1, x2, y2):
     if flag:
         data[y1][x1] = data[y2][x2] = 0
     print(data)
-    print()
+    print(2)
     return flag
 
 
@@ -85,14 +87,14 @@ def threeRoadConnect(data, x1, y1, x2, y2):
     if not data[y1][x1] == data[y2][x2]:
         return False
     # 两条与x轴平行
-    for i in range(0, 8):
+    for i in range(0, 18):
         if temp_data[y1][i] == 0 and temp_data[y2][i] == 0:
             if XRoadConnect(temp_data,i,y1+1,x1+1,y1+1) and XRoadConnect(temp_data,i,y2+1,x2+1,y2+1) and YRoadConnect(
                     temp_data,i,y1+1,i,y2+1):
                 flag = True
 
     # 两条与y轴平行
-    for i in range(0, 5):
+    for i in range(0, 10):
         if temp_data[i][x1+1] == 0 and temp_data[i][x2+1] == 0:
             if YRoadConnect(temp_data, x1+1, i, x1+1, y1+1) and YRoadConnect(temp_data, x2+1, i, x2+1, y2+1) and XRoadConnect(
                     temp_data, x1+1, i, x2+1, i):
@@ -100,7 +102,7 @@ def threeRoadConnect(data, x1, y1, x2, y2):
     if flag:
         data[y1][x1] = data[y2][x2] = 0
         print(data)
-        print()
+        print(3)
     return flag
 
 def connect(data, x1, y1, x2, y2):

@@ -4,7 +4,7 @@ from LLKdata.connect import *
 
 class GameMap:
     def __init__(self):
-        """self.data = np.random.randint(1, 8, [8, 16])
+        self.data = np.random.randint(1, 8, [8, 16])
         flag = True
         while flag:
             flag = False
@@ -13,10 +13,10 @@ class GameMap:
                     self.data = np.random.randint(1, 8, [8, 16])
                     flag = True
             if not flag:
-                break"""
-        self.data = np.array([[1,1,2,0,0,2],
+                break
+        '''self.data = np.array([[1,1,2,0,0,2],
                      [2,3,3,4,0,1],
-                     [3,5,2,2,0,2]])
+                     [3,5,2,2,0,2]])'''
 
     def getData(self):
         return self.data
