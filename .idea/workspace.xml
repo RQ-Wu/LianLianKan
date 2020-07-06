@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468d64f7-a122-4e5a-9e33-339485ee87dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LLKChallenge/challengeGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLKGame/connect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLKGame/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLKGame/game.qss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/record.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/recordTool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLKdata/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLKdata/connect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLKdata/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLKdata/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLKdata/gameMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLKdata/gameMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLKdata/connect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLKdata/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLKdata/gameMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLKGame/gameMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLKdata/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LLKGame/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/Menu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.qss" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/menu.qss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/readQssTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/readQssTool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +38,7 @@
   <component name="ProjectId" id="1dcbIRMs0c92JvQqSOnxM7GuYtb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,7 +59,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.game (1)">
+  <component name="RunManager" selected="Python.recordTool">
+    <configuration name="challengeGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="连连看" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLKChallenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLKChallenge/challengeGame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="game (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="连连看" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gameMap (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="连连看" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gameData" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLKGame" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gameData/gameMap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLKGame/game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gameMap (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="menu (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="连连看" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLKdata" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Menu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLKdata/gameMap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Menu/menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="recordTool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="连连看" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,32 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/menu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/menu/menu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="untitled" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="连连看" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/recordTool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.recordTool" />
+        <item itemvalue="Python.menu (1)" />
+        <item itemvalue="Python.challengeGame" />
+        <item itemvalue="Python.game" />
         <item itemvalue="Python.game (1)" />
-        <item itemvalue="Python.menu" />
-        <item itemvalue="Python.untitled" />
-        <item itemvalue="Python.gameMap (2)" />
-        <item itemvalue="Python.gameMap (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593792907242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成基本的游戏操作">
+      <created>1593878195597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593878195597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +218,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入逻辑层" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入逻辑层" />
+    <MESSAGE value="完成基本的游戏操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成基本的游戏操作" />
   </component>
 </project>

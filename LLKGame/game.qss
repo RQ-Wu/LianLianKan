@@ -1,0 +1,12 @@
+QMainWindow{
+    border-image:url(../image/game-bg.jpg)
+}
+QPushButton:hover{
+    border:2px black solid;
+}
+QPushButton#restart-btn{
+    border-image:url(../image/restartButton.png)
+}
+QPushButton#home-btn{
+    border-image:url(../image/homeButton.png)
+}

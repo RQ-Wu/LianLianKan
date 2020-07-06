@@ -1,30 +1,43 @@
 from PyQt5 import QtCore, QtWidgets
 import sys
+
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPainter, QPen
 from PyQt5.QtWidgets import *
 import time
 
-class WinForm(QWidget):
-    def __init__(self, parent = None):
-        super(WinForm, self).__init__(parent)
-        self.setWindowTitle('实时刷新页面例子')
-        self.listFile = QListWidget()
-        self.btnStart = QPushButton('开始')
-        layout = QGridLayout(self)
-        layout.addWidget(self.listFile, 0, 0, 1, 2)
-        layout.addWidget(self.btnStart, 1, 1)
+from qtpy import QtGui
 
-        self.btnStart.clicked.connect(self.slotAdd)
-        self.setLayout(layout)
 
-    def slotAdd(self):
-        for n in range(10):
-            str_n = 'file index {0}'.format(n)
-            self.listFile.addItem(str_n)
-            QApplication.processEvents()
-            time.sleep(1)
+class TestForm(QMainWindow):
+    def __init__(self):
+        super(TestForm,self).__init__()
+        self.resize(300,600)
+
+    def paintEvent(self, a0: QtGui.QPaintEvent) -> None:
+        painter = QPainter(self)
+        painter.begin(self)
+
+        pen = QPen(Qt.red, 2, Qt.SolidLine)
+        painter.setPen(pen)
+        painter.drawLine(10,120,10,400)
+        painter.end()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    form = WinForm()
+    form = TestForm()
+    qss='''
+    QMainWindow{
+    border-image:url(image/game-bg.jpg)
+}
+QPushButton:hover{
+    border:2px black solid;
+}
+QPushButton#restart-btn{
+    border-image:url(../image/restartButton.png)
+}
+    '''
+    form.setStyleSheet(qss)
     form.show()
     sys.exit(app.exec_())
