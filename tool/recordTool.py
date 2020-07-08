@@ -8,7 +8,7 @@ def addRecord(time, score, user='none'):
     }
     record_json = json.dumps(record_dict)
     with open('../record.json', 'w') as record_file:
-        record_file.write()
+        record_file.write(record_json)
 
 def readRecord():
     with open('../record.json', 'r+') as f:
@@ -18,5 +18,4 @@ def readRecord():
 
 
 if __name__ == '__main__':
-    addRecord('156s', '123', 'VoRacci')
     print(readRecord())

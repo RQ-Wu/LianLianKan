@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468d64f7-a122-4e5a-9e33-339485ee87dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LLKChallenge/challengeGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLKGame/connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLKGame/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLKGame/game.qss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/record.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/recordTool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/BGM.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/game.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLKdata/connect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLKdata/game.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLKdata/gameMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLKGame/gameMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLKdata/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LLKGame/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/Menu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.qss" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/menu.qss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/readQssTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/readQssTool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/record.json" beforeDir="false" afterPath="$PROJECT_DIR$/record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/recordTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/recordTool.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +28,13 @@
   <component name="ProjectId" id="1dcbIRMs0c92JvQqSOnxM7GuYtb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12\Desktop\LLK\music" />
       <recent name="C:\Users\12\Desktop\LLK\menu" />
       <recent name="C:\Users\12\Desktop\LLK\tool" />
       <recent name="C:\Users\12\Desktop\LLK" />
@@ -59,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.recordTool">
+  <component name="RunManager" selected="Python.menu (1)">
     <configuration name="challengeGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="连连看" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,27 +66,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLKChallenge/challengeGame.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="game (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="连连看" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLKdata" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLKdata/game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +116,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ranking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="连连看" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ranking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ranking/ranking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="recordTool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="连连看" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.recordTool" />
         <item itemvalue="Python.menu (1)" />
-        <item itemvalue="Python.challengeGame" />
-        <item itemvalue="Python.game" />
-        <item itemvalue="Python.game (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592727249763</updated>
+      <workItem from="1594086743976" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="加入逻辑层">
       <created>1593792907242</created>
@@ -200,8 +190,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593878195597</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入挑战模式">
+      <created>1594045639753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594045639753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -219,6 +219,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入逻辑层" />
     <MESSAGE value="完成基本的游戏操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成基本的游戏操作" />
+    <MESSAGE value="加入挑战模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入挑战模式" />
   </component>
 </project>
